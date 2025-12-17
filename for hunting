@@ -1,0 +1,36 @@
+inurl:"bug bounty" intitle:"security" 
+inurl:"vulnerability" intext:"report"
+inurl : "bug bounty" "reward" 
+inurl:"vulnerability" site:.gov
+inurl:"program" "bug bounty" "reward" "report" site:*.io
+"submit a bug" "security issue" "report" inurl:bug
+inurl:/admin/ intitle:"index of" "parent directory"
+inurl:/login intitle:"login" -inurl:login.php
+site:*.example.com -www intitle:"index of" 
+inurl:"config" filetype:env OR filetype:json OR filetype:ini
+inurl:"vulnerability" inurl:"disclosure" intitle:"security" 
+inurl:"index.php?id=" "Warning: mysql" OR "Notice: Undefined variable" 
+inurl:"/server-status" "Apache Status" 
+inurl:"/wp-content" "Powered by WordPress" 
+inurl:"/phpmyadmin" "Index of /phpmyadmin" 
+inurl:/administrator/ intitle:"Joomla Administration" 
+inurl:"/wp-admin" "WordPress" "version" 
+inurl:"bug bounty" "report" "program" site:*.edu
+inurl:/.well-known/security.txt
+inurl : "Responsible Disclosure" "report a vulnerability"
+intitle:"Responsible Disclosure" inurl:security
+inurl : "Bug Bounty Program" "email us"
+inurl : "bug bounty" "reward" "swag"
+inurl : "security vulnerability" "rewarded"
+inurl : "Security Hall of Fame"
+site:.org "security vulnerability report"
+site:github.com "security policy" "report"
+inurl : "Vulnerability Disclosure Program" site:.gov
+inurl : "security researchers will be rewarded"
+inurl : "High severity vulnerabilities" "reward"
+inurl : "IDOR" "bug bounty"
+inurl : "authentication bypass" "bug bounty"
+inurl : "account takeover" "bug bounty"
+inurl : "business logic vulnerability" "reward"
+inurl :"logic flaw" "bug bounty"
+inurl:/.well-known/security.txt "reward"
